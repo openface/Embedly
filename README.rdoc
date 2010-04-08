@@ -1,6 +1,6 @@
 = Embedly for Ruby
 
-Embedly.rb is a simple class that interfaces with the embed.ly API. (http://api.embed.ly/)
+Embedly.rb is a simple client for interfacing with the embed.ly API. (http://api.embed.ly)
 
 == Usage
 
@@ -15,7 +15,7 @@ passed into Embedly.rb will be sent over to Embed.ly.
 To return something usable, you'll need to call the gets method. This processes the request, and will
 return a JSON object.
 
-	pp(o.gets)
+	pp(embedly.gets)
 
 Outputs the following object in the JSON format.  (unless another format is specified)
 
