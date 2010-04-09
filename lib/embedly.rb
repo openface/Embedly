@@ -19,8 +19,13 @@ class Embedly
   end
 
   def gets
-    r = Net::HTTP.get_response(URI.parse(@request_url))
-    return r.body
+    response = Net::HTTP.get_response(URI.parse(@request_url))
+    case response
+    when Net::HTTPSuccess
+      then response.body
+    else
+      return false
+    end
   end
 
   def url_for_request

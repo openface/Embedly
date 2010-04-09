@@ -1,5 +1,5 @@
 require 'lib/embedly.rb'
 require 'pp'
 
-o = Embedly.new(:url=>'http://www.youtube.com/watch?v=60og9gwKh1o')
+o = Embedly.new(:url=>'http://imgur.com/tools/')
 pp(o.gets)
