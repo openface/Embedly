@@ -1,8 +1,8 @@
-= Embedly for Ruby
+# Embedly for Ruby
 
 Embedly.rb is a simple client for interfacing with the embed.ly API. (http://api.embed.ly)
 
-== Usage
+## Usage
 
 Instantiate the class by passing in the options, as supported by Embed.ly.  At the very least, a
 URL is required.
@@ -41,12 +41,12 @@ Outputs the following object in the JSON format.  (unless another format is spec
 	}
 ```
 
-== Notes / TODO
+## Notes / TODO
 
 * Needs moar error checking
 * Restructure this into a gem
 * Add unit tests
 
-== Copyright
+## Copyright
 
 Copyright (c) 2010 Jason Hines ~ DevTwo, LLC. See LICENSE for details.
